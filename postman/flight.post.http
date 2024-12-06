@@ -1,0 +1,78 @@
+@url_dev=http://localhost:5000/api/flight
+
+### Tạo một chuyến bay mới
+POST {{url_dev}}/511454641/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTE3NGFiNTkyOTI5MDhlOTgxNTA3NCIsImlhdCI6MTcxNjcxOTI3NCwiZXhwIjoxNzE2ODA1Njc0fQ.gzhgg10Vv98KbkcJFnI07MLa176EAj2GxCVHpVZqzW4
+{
+    "flight_number": "MH370-BOEING777889",
+    "flight_code": "HAN-SGN",
+    "departure_airport": "664c3673f2817eff891d2fbc",
+    "destination_airport": "664c3673f2817eff891d2fbc",
+    "departure_datetime": "2024-06-25",
+    "duration": 30,
+    "ticket_price": 1000,
+    "seats": [
+        {"class": "1", "count": 1},
+        {"class": "2", "count": 80}
+    ],
+    "transit_airports": [
+        {"airport_id": "664c3673f2817eff891d2fbc", "stop_duration": 14, "note": ""},
+        {"airport_id": "664c3673f2817eff891d2fbc", "stop_duration": 16, "note": "delay 2 minutes"}
+    ]
+}
+
+
+
+### Lấy tất cả các chuyến bay
+GET {{url_dev}}/all
+
+### Lấy thông tin của một chuyến bay dựa trên ID
+GET {{url_dev}}/66484d46f85395a3e0b97935
+
+### Cập nhật thông tin của một chuyến bay dựa trên ID
+PUT {{url_dev}}/511246641/6636501cdcfe20685a789256
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDdmYzNhODY0ZmNmYjA4ODMyZDgxOSIsImlhdCI6MTcxNTk5NDQ5OCwiZXhwIjoxNzE2MDgwODk4fQ.ZxebGkrkAVJZUij9ky-Z1Wx2PUlrXNr_2wkE7Gu_cHA
+{
+    "flight_number": "MH370-BOEING777777",
+    "flight_code": "HAN-SGNNNN",
+    "departure_airport": "66364a9367685b9b04acb66e",
+    "destination_airport": "66364da2083d44d27ecaad97",
+    "departure_datetime": "2024-04-20T08:00:00.000Z",
+    "duration": 30,
+    "ticket_price": 1000,
+    "seats": [
+        {"class": "1", "count": 1, "booked_seats": 0, "status": true},
+        {"class": "2", "count": 80, "booked_seats": 0, "status": true}
+    ],
+    "transit_airports": [
+        {"airport_id": "66364a9367685b9b04acb66e", "stop_duration": 10, "note": ""},
+        {"airport_id": "66364a9d67685b9b04acb675", "stop_duration": 15, "note": "delay 2 minutes"}
+    ],
+    "rules": {
+        "regulation_1": {
+            "flight_time": "663649fb67685b9b04acb651",
+            "intermediate": "663649fb67685b9b04acb652"
+        },
+        "regulation_2": {
+            "tickets": "663649fb67685b9b04acb653"
+        },
+        "regulation_3": {
+            "booking": "663649fb67685b9b04acb654"
+        }
+    }
+}
+
+### Cập nhật thông tin ghế ngồi của một chuyến bay dựa trên ID
+PUT {{url_dev}}/511246641/664a007187aa319027fc674f/seats/664a007187aa319027fc6750
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDlmZTNkYTUzMTgwNGU4MmMzZGYwNiIsImlhdCI6MTcxNjEyNTc2OSwiZXhwIjoxNzE2MjEyMTY5fQ.E4ZWa81EErNWvMNTjJe8CsmNYIg_0O1tGCpa3Je9f9g
+{
+    "count": 2
+}
+
+
+### Xóa một chuyến bay dựa trên ID
+DELETE {{url_dev}}/6620a46c47a97d2cb55b7aee
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWY4MmRjODE0MWQyMjAzZDE4MDNiMCIsImlhdCI6MTcxMzM1MzgyMSwiZXhwIjoxNzEzNDQwMjIxfQ.Wj-benP-bbrUNoWxN-SXW0ihREkTX0yYOPLxDcd26JE

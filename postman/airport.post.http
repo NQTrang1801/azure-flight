@@ -1,0 +1,108 @@
+@url_dev=http://localhost:5000/api/airport
+
+### ADMIN ###
+### Create airport
+POST {{url_dev}}/511454675/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMwYjk4MGMxZmNiMzVlYTZkZjQ5OCIsImlhdCI6MTcxNjI3MDY2MSwiZXhwIjoxNzE2MzU3MDYxfQ.N7LRw5beVq5wcHOmp3As1QO-sT8WE6kHK72hoH9dZzo
+{
+    "code": "HAN",
+    "name": "Noi Bai Airport",
+    "country": "Vietnam",
+    "address": "Hà Nội",
+    "timezone": "GMT+7",
+    "terminals": 2,
+    "capacity": 2000,
+    "isInternational": true,
+    "coordinates": {
+        "type": "Point",
+        "coordinates": [10.807, 1.2212]
+    }
+}
+
+POST {{url_dev}}/511454675/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMwYjk4MGMxZmNiMzVlYTZkZjQ5OCIsImlhdCI6MTcxNjI3MDY2MSwiZXhwIjoxNzE2MzU3MDYxfQ.N7LRw5beVq5wcHOmp3As1QO-sT8WE6kHK72hoH9dZzo
+{
+    "code": "SGN",
+    "name": "Tân Sơn Nhất International Airport",
+    "country": "Vietnam",
+    "address": "Ho Chi Minh City",
+    "timezone": "GMT+7",
+    "terminals": 2,
+    "capacity": 2000,
+    "isInternational": true,
+    "coordinates": {
+        "type": "Point",
+        "coordinates": [106.6586, 10.8188]
+    }
+}
+
+POST {{url_dev}}/511454675/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMwYjk4MGMxZmNiMzVlYTZkZjQ5OCIsImlhdCI6MTcxNjI3MDY2MSwiZXhwIjoxNzE2MzU3MDYxfQ.N7LRw5beVq5wcHOmp3As1QO-sT8WE6kHK72hoH9dZzo
+
+{
+    "code": "DAD",
+    "name": "Da Nang International Airport",
+    "country": "Vietnam",
+    "address": "Da Nang",
+    "timezone": "GMT+7",
+    "terminals": 2,
+    "capacity": 2000,
+    "isInternational": true,
+    "coordinates": {
+        "type": "Point",
+        "coordinates": [108.1985, 16.0439]
+    }
+}
+
+POST {{url_dev}}/511454675/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMwYjk4MGMxZmNiMzVlYTZkZjQ5OCIsImlhdCI6MTcxNjI3MDY2MSwiZXhwIjoxNzE2MzU3MDYxfQ.N7LRw5beVq5wcHOmp3As1QO-sT8WE6kHK72hoH9dZzo
+
+{
+    "code": "PXU",
+    "name": "Pleiku Airport",
+    "country": "Vietnam",
+    "address": "Pleiku",
+    "timezone": "GMT+7",
+    "terminals": 1,
+    "capacity": 1000,
+    "isInternational": false,
+    "coordinates": {
+        "type": "Point",
+        "coordinates": [108.0222, 13.9542]
+    }
+}
+
+
+### Update
+PUT {{url_dev}}/admin/66209c084fd0c1e8b4adf6ab
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWY4MmRjODE0MWQyMjAzZDE4MDNiMCIsImlhdCI6MTcxMzM1MzgyMSwiZXhwIjoxNzEzNDQwMjIxfQ.Wj-benP-bbrUNoWxN-SXW0ihREkTX0yYOPLxDcd26JE
+{
+    "name": "Noi Bai International Airport",
+    "address": "Hanoi",
+    "capacity": 2500
+}
+
+### UPDATE status
+PATCH {{url_dev}}/admin/66209c084fd0c1e8b4adf6ab/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWY4MmRjODE0MWQyMjAzZDE4MDNiMCIsImlhdCI6MTcxMzM1MzgyMSwiZXhwIjoxNzEzNDQwMjIxfQ.Wj-benP-bbrUNoWxN-SXW0ihREkTX0yYOPLxDcd26JE
+{
+    "status": true
+}
+
+### DELETE
+DELETE {{url_dev}}/admin/66209c084fd0c1e8b4adf6ab
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWY4MmRjODE0MWQyMjAzZDE4MDNiMCIsImlhdCI6MTcxMzM1MzgyMSwiZXhwIjoxNzEzNDQwMjIxfQ.Wj-benP-bbrUNoWxN-SXW0ihREkTX0yYOPLxDcd26JE
+
+### ALL AUTH ###
+### GET ALL
+GET {{url_dev}}/all
+
+### GET BY ID
+GET {{url_dev}}/66209c084fd0c1e8b4adf6ab

@@ -1,0 +1,29 @@
+@url_dev=http://localhost:5000/api/rule
+# router.post('/511454340/add-update-rule', authMiddleware, hasPermission, ruleController.addOrUpdateRule);
+# router.delete('/511627340/delete/:id', authMiddleware, hasPermission, ruleController.deleteRule);
+# router.get('/511320340/all', authMiddleware, hasPermission, ruleController.getAllRules);
+# router.get('/511320340/:id', authMiddleware, hasPermission, ruleController.getRuleById);
+### get all
+GET {{url_dev}}/511320340/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDgyNzBlMDgxMDIwYzRmNzM4NzA1NyIsImlhdCI6MTcxNjAwNDY1MywiZXhwIjoxNzE2MDkxMDUzfQ.sB2DP9eFhK25Z0fQi93ZhYsMPM02T1V5_C1c6TrhwP4
+
+## delete rule
+DELETE {{url_dev}}/511627340/delete/6628b879e931f6502283b5c4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjhiODNmZTkzMWY2NTAyMjgzYjViNiIsImlhdCI6MTcxMzk0NDY0MSwiZXhwIjoxNzE0MDMxMDQxfQ.jGVcF-AEXTIUxTcL-c2Y1sGRqh9hYVCRgitNa6rVV94
+
+POST {{url_dev}}/511454340/add-update-rule
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDgyNzBlMDgxMDIwYzRmNzM4NzA1NyIsImlhdCI6MTcxNjAwNDY1MywiZXhwIjoxNzE2MDkxMDUzfQ.sB2DP9eFhK25Z0fQi93ZhYsMPM02T1V5_C1c6TrhwP4
+Content-Type: application/json
+{
+    "ruleName": "Regulations booking", 
+    "code": "R3", 
+    "detail": "Only book tickets later 1 day before departure. On the date of departure, all votes will be canceled.",
+    "values": { 
+        "max_booking_days_before_departure": -1, 
+        "cancel_bookings_days_before_departure": -1
+    }
+}
+
+// 6648270e081020c4f738705d
+
+

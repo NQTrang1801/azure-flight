@@ -1,0 +1,82 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: express-backend-development
+  labels:
+    app: express-backend
+    env: dev
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app: express-backend
+      env: dev
+  template:
+    metadata:
+      labels:
+        app: express-backend
+        env: dev
+    spec:
+      containers:
+      - name: express-backend
+        imagePullPolicy: Always
+        image: btlcr001.azurecr.io/express-backend:latest
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: express-backend-development
+spec:
+  selector:
+    app: express-backend
+    env: dev
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-frontend-development
+  labels:
+    app: react-frontend
+    env: dev
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app: react-frontend
+      env: dev
+  template:
+    metadata:
+      labels:
+        app: react-frontend
+        env: dev
+    spec:
+      containers:
+      - name: react-frontend
+        imagePullPolicy: Always
+        image: btlcr001.azurecr.io/react-frontend:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: react-frontend-development
+spec:
+  selector:
+    app: react-frontend
+    env: dev
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer

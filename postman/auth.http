@@ -1,0 +1,118 @@
+@url_dev=http://localhost:5000/api/user
+# router.post("/register", createUser);
+# router.post("/login", loginUSER);
+# router.post("/admin-login", loginADMIN);
+# router.post("/administrator-login", loginADMINISTRATOR);
+# router.put("/password", authMiddleware, updatePassword);
+# router.put("/edit-user", authMiddleware, updatedUser);
+# router.put("/reset-password/:token", resetPassword);
+# router.put("/511246447/block-user/:id", authMiddleware, hasPermission, blockUser); //admin-put-user
+# router.put("/511246447/unblock-user/:id", authMiddleware, hasPermission, unblockUser);
+# router.patch("/999457447/update-group/:id", authMiddleware, hasPermission, unblockUser);
+# router.get("/refresh", handleRefreshToken);
+# router.get("/logout", logout);
+# router.get("/all-users", getAllUsers);
+# router.get("/511320447/admin/all-users", authMiddleware, hasPermission, getAllUsersWithAdmin);
+# router.get("/511320447/info/:id", authMiddleware, hasPermission, getUserWithAdmin);
+
+
+### register
+POST {{url_dev}}/register
+Content-Type: application/json
+{
+    "fullname": "Nguyen Quoc Trang",
+    "email": "admin1s@gmail.com",
+    "mobile": "0123s34679",
+    "password": "apipassword123",
+    "address": "TP HCM"
+}
+
+### login
+POST {{url_dev}}/login
+Content-Type: application/json
+{
+    "email": "ADMINISTRATOR@gmail.com",
+    "password": "ADMINISTRATOR999"
+}
+
+
+### Admin login
+POST {{url_dev}}/admin-login
+Content-Type: application/json
+{
+    "email": "usre@gmail.com",
+    "password": "apipassword123"
+}
+
+### ADMINISTRATOR login
+POST {{url_dev}}/administrator-login
+Content-Type: application/json
+{
+    "email": "ADMINISTRATOR@gmail.com",
+    "password": "ADMINISTRATOR999"
+}
+
+
+### refresh
+GET {{url_dev}}/refresh
+
+### logout
+GET {{url_dev}}/logout
+
+### get all user
+GET {{url_dev}}/all-users
+
+### get all tickets
+GET {{url_dev}}/664c2c2059a44400841cbddb/tickets
+
+### patch update password
+PATCH {{url_dev}}/password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjhiMDJkNWViNTg3NTQyZTMxNGZiNSIsImlhdCI6MTcxMzk0MzAwMSwiZXhwIjoxNzE0MDI5NDAxfQ.A06tDFuBF78zqKXXMpSXqblxHUiGkKcM1rOWuCiS_N0
+{
+    "password": "helloword"
+}
+
+### update user
+PUT {{url_dev}}/edit-user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMzNDUwNzNjNGRmMmRmM2U2YTBhZCIsImlhdCI6MTcxNjI3MTI5OCwiZXhwIjoxNzE2MzU3Njk4fQ.oEPj3JbS1K-yWeAPoZXwhLggvoJbpt-2V4G045lCW0E
+Content-Type: application/json
+{
+    "fullname": "ABC Fullname",
+    "email": "newsads_email01@example.com",
+    "mobile": "01234566009",
+    "address": "HN"
+}
+
+### update password
+PUT {{url_dev}}/password
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjhhZGIyYmJiNmEzYWUzNzEyZTBhOSIsImlhdCI6MTcxMzk0MTk1MSwiZXhwIjoxNzE0MDI4MzUxfQ.OVu9-4dq7iKIAp_5RFzgRGwk7FGroVIE6m-O7f5WI1A
+Content-Type: application/json
+{
+    "password": "admin"
+}
+
+# ADMIN
+### get user
+GET {{url_dev}}/511320447/info/664c345073c4df2df3e6a0ad
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDk4Njk4NTc4YTZkNzc4ZDU5ZTEzZCIsImlhdCI6MTcxNjA5NjcwNCwiZXhwIjoxNzE2MTgzMTA0fQ.4NScp2ucgXWRAlgdtsTMtEUtSYn5pGShckpXpC-FmY4
+
+### get all user
+GET {{url_dev}}/511320447/admin/all-users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDgzOGNjNDE0NjkzODEzYWZlMTY2YSIsImlhdCI6MTcxNjAwOTE4NywiZXhwIjoxNzE2MDk1NTg3fQ.I9lBaGhcdi2RuWAHmBf38F-V_xoxmtlJYfMvAv8ArhY
+
+### put block user
+PUT {{url_dev}}/511246447/block-user/664838f6414693813afe167c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDgzOGNjNDE0NjkzODEzYWZlMTY2YSIsImlhdCI6MTcxNjAwOTE4NywiZXhwIjoxNzE2MDk1NTg3fQ.I9lBaGhcdi2RuWAHmBf38F-V_xoxmtlJYfMvAv8ArhY
+
+### unblock user
+PUT {{url_dev}}/511246447/unblock-user/664838f6414693813afe167c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDgzOGNjNDE0NjkzODEzYWZlMTY2YSIsImlhdCI6MTcxNjAwOTE4NywiZXhwIjoxNzE2MDk1NTg3fQ.I9lBaGhcdi2RuWAHmBf38F-V_xoxmtlJYfMvAv8ArhY
+
+### update group user
+PATCH {{url_dev}}/999457447/update-group/664cc8813dada9938f494015
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGMwYjk4MGMxZmNiMzVlYTZkZjQ5OCIsImlhdCI6MTcxNjMwNzkyMCwiZXhwIjoxNzE2Mzk0MzIwfQ.dpmu5vxpGkJ9B89CBctetiN5R-CA9ShPwdggZhHk80s
+Content-Type: application/json
+{
+    "group_id": "664ccb77d0b03a52eb7f8b2e"
+}
