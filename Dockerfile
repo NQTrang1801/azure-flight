@@ -1,18 +1,23 @@
-FROM node:18-alpine
+# Sử dụng Node.js phiên bản LTS
+FROM node:20
 
-WORKDIR /usr/src/app
+# Đặt thư mục làm việc
+WORKDIR /app
 
+# Sao chép các tệp cần thiết
 COPY package*.json ./
 
-RUN npm install
+# Cài đặt dependencies với tùy chọn xử lý xung đột nếu cần
+RUN npm install --legacy-peer-deps
 
+# Sao chép mã nguồn vào image
 COPY . .
 
-COPY .env .env
+# Sao chép file môi trường (nếu cần)
+COPY .env.sample .env
 
-ENV NODE_ENV=production
-
-EXPOSE 3000 5000
+# Mở cổng cho ứng dụng
+EXPOSE 4040 3030 3032 3033
 
 RUN npm install -g concurrently
 

@@ -1,0 +1,189 @@
+[{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc906"
+  },
+  "fullname": "ADMINISTRATOR",
+  "email": "ADMINISTRATOR@gmail.com",
+  "mobile": "0000000000",
+  "password": "$2b$10$wyVXRHDvs/Dw9oMBFMHL9eGA1W2T3m.mSNdQ85tGyVa55cLEpl37y",
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "isBlocked": false,
+  "tickets": [],
+  "createdAt": {
+    "$date": "2024-05-26T14:25:39.748Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T14:26:25.175Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM0NjYzYjkxYzM3YzljM2JkYzkwNiIsImlhdCI6MTcxNjczMzU4NSwiZXhwIjoxNzE2OTkyNzg1fQ.uBGOJh2P6hsAuBlyoQWm73M8zgzrx7MsB7r_czAKQHU"
+},
+{
+  "_id": {
+    "$oid": "6653526bb91c37c9c3bdc96b"
+  },
+  "fullname": "Tran Minh Anh",
+  "email": "tranminhanh@gmail.com",
+  "mobile": "0973812321",
+  "password": "$2b$10$XdQXW2ZYs247LQRArTIMWe3YHYtyXcOd9E/fW4Vw0TAeSiZgzBGZi",
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "isBlocked": false,
+  "tickets": [
+    {
+      "$oid": "6653576eb91c37c9c3bdd0ce"
+    },
+    {
+      "$oid": "6653577db91c37c9c3bdd115"
+    },
+    {
+      "$oid": "66535790b91c37c9c3bdd15c"
+    },
+    {
+      "$oid": "66535db2b91c37c9c3bddca2"
+    }
+  ],
+  "address": "TP HCM",
+  "createdAt": {
+    "$date": "2024-05-26T15:16:59.730Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T16:05:06.813Z"
+  },
+  "__v": 4,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM1MjZiYjkxYzM3YzljM2JkYzk2YiIsImlhdCI6MTcxNjczNjY0MywiZXhwIjoxNzE2OTk1ODQzfQ.155-ljEKiW_gOM_WyZ2Jt9Srz0bqB09Jn1QOFx0ZBKY"
+},
+{
+  "_id": {
+    "$oid": "66535dedb91c37c9c3bdddb6"
+  },
+  "fullname": "Nguyen Thanh Lam",
+  "email": "nguyenthanhlam@gmail.com",
+  "mobile": "0863123457",
+  "password": "$2b$10$40dTX.hQq58FNwmFQWYaf..H7IsK2zzOJXizYzSnF.ZG0zdbgYW4S",
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "isBlocked": false,
+  "tickets": [
+    {
+      "$oid": "66535e42b91c37c9c3bddf0f"
+    },
+    {
+      "$oid": "66535e5ab91c37c9c3bddf50"
+    },
+    {
+      "$oid": "66535e6eb91c37c9c3bddf91"
+    },
+    {
+      "$oid": "66535e81b91c37c9c3bddfd2"
+    }
+  ],
+  "address": "Lam Dong",
+  "createdAt": {
+    "$date": "2024-05-26T16:06:05.253Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T16:08:33.565Z"
+  },
+  "__v": 4,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM1ZGVkYjkxYzM3YzljM2JkZGRiNiIsImlhdCI6MTcxNjczOTU5OCwiZXhwIjoxNzE2OTk4Nzk4fQ.zLz73-v0agIL2Pn9npZmKVL0TH4SSF1K7qbR-f9YKPw"
+},
+{
+  "_id": {
+    "$oid": "66535fc7b91c37c9c3bde67e"
+  },
+  "fullname": "Nguyen Phuong Thanh",
+  "email": "nguyenphuongthanh@gmail.com",
+  "mobile": "0972132133",
+  "password": "$2b$10$o5R8TFlA8Dajxnhr/J83SeA1YSsF6WlbwfgAlDjGbhJCJ.xL53bBK",
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "isBlocked": false,
+  "tickets": [
+    {
+      "$oid": "66535fedb91c37c9c3bde6f4"
+    },
+    {
+      "$oid": "66535ffdb91c37c9c3bde736"
+    },
+    {
+      "$oid": "6653600fb91c37c9c3bde778"
+    },
+    {
+      "$oid": "6653601fb91c37c9c3bde7ba"
+    }
+  ],
+  "address": "An Giang",
+  "createdAt": {
+    "$date": "2024-05-26T16:13:59.079Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T16:15:27.611Z"
+  },
+  "__v": 4,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM1ZmM3YjkxYzM3YzljM2JkZTY3ZSIsImlhdCI6MTcxNjc0MDA1MCwiZXhwIjoxNzE2OTk5MjUwfQ.iKuesL2MiqzacoYRb5t_1T3anMQISlTmAM7hl6Obsoc"
+},
+{
+  "_id": {
+    "$oid": "665360acb91c37c9c3bdef84"
+  },
+  "fullname": "Tran Van Anh",
+  "email": "tranvananh@gmail.com",
+  "mobile": "0932712312",
+  "password": "$2b$10$Y8Tk97uqQkADPguH8urzaueSJb.hANdLxzwkE.UeeWsrqa5j5XNdu",
+  "group_id": {
+    "$oid": "665360e5b91c37c9c3bdf12b"
+  },
+  "isBlocked": false,
+  "tickets": [],
+  "address": "Ha Noi",
+  "createdAt": {
+    "$date": "2024-05-26T16:17:48.520Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T16:19:48.004Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM2MGFjYjkxYzM3YzljM2JkZWY4NCIsImlhdCI6MTcxNjc0MDM4OCwiZXhwIjoxNzE2OTk5NTg4fQ.7lGrc_UiQI9wyxAC1NfoN4KfqShj_T7M-RrbI7-_ZNw"
+},
+{
+  "_id": {
+    "$oid": "665362f3b91c37c9c3bdfab1"
+  },
+  "fullname": "Le Duc Phat",
+  "email": "leducphat@gmail.com",
+  "mobile": "0972132134",
+  "password": "$2b$10$f3dp4YEHKJSND.ZaADI4YORLEX5x/b8kDJiGiGFCuiNQ4ygpY.Eb6",
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "isBlocked": false,
+  "tickets": [
+    {
+      "$oid": "66536313b91c37c9c3bdfb0e"
+    },
+    {
+      "$oid": "6653632cb91c37c9c3bdfb69"
+    },
+    {
+      "$oid": "6653660eb91c37c9c3be0d9e"
+    },
+    {
+      "$oid": "66536640b91c37c9c3be0ef2"
+    }
+  ],
+  "address": "Da Nang",
+  "createdAt": {
+    "$date": "2024-05-26T16:27:31.428Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-26T16:41:36.928Z"
+  },
+  "__v": 4,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NTM2MmYzYjkxYzM3YzljM2JkZmFiMSIsImlhdCI6MTcxNjc0MDg2MCwiZXhwIjoxNzE3MDAwMDYwfQ.zvZLj946viZGPHVQh7lWl7EQCkTEiBabQilVMReammM"
+}]

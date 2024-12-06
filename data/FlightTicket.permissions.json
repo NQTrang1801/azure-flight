@@ -1,0 +1,1140 @@
+[{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc858"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc855"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc853"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc859"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc857"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc856"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85a"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85c"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85e"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85b"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85d"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7de"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc85f"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7eb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc860"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ea"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc861"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ec"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc862"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ee"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc863"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ed"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc864"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc866"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc865"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f0"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc868"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc867"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f2"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc869"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f4"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86b"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86a"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86c"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7da"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86d"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86f"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7dc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc86e"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc871"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc870"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc872"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e4"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc873"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc874"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7df"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc845"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fd"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc849"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc803"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84e"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc800"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc854"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7dd"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84f"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7db"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84a"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc804"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc847"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc801"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc851"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e2"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84b"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc805"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc850"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e0"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc848"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc802"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84c"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc806"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc852"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fa"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc84d"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ff"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc846"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fe"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8a9"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc801"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ab"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc803"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8a7"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fd"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ad"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ff"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ae"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc800"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8af"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7db"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b4"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b5"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8a8"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fe"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8aa"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc802"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b2"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fa"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b0"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e0"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ac"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc805"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b1"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e2"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b3"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b6"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b8"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ba"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b7"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8bb"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8b9"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7fc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8bc"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7de"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8bd"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8be"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7eb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8bf"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ea"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c1"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ee"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c0"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ec"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c2"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ed"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c3"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7ef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c4"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f0"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c6"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c5"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c8"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7da"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c9"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f5"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8c7"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8cb"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7dc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ca"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f9"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8cc"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7d7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8cd"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e4"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ce"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8cf"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7df"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8ff"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f8"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8fd"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f4"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8fc"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f2"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8fb"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc804"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc8fe"
+  },
+  "group_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc7f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66536104b91c37c9c3bdf188"
+  },
+  "group_id": {
+    "$oid": "665360e5b91c37c9c3bdf12b"
+  },
+  "functionality_id": {
+    "$oid": "6653465cb91c37c9c3bdc805"
+  },
+  "__v": 0
+}]

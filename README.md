@@ -4,15 +4,11 @@
 
 ### University Information
 - **University**: University of Information Technology, Vietnam National University HCM
-- **Faculty**: Faculty of Software Engineering
-- **Course**: Introduction to Software Engineering
-- **Instructor**: Đỗ Thị Thanh Tuyền
-- **Class**: SE104.O23
+- **Faculty**: Faculty of Infomation System
 
 ### Team Members
 - **Huỳnh Lê Phong** - 21520086
 - **Nguyễn Quốc Trạng** - 21521556
-- **Trần Nhật Anh** - 21521841
 - **Nguyễn Triệu Vy** - 21522812
 
 ### Project Title
@@ -113,6 +109,5 @@ Our project, "Flight Ticket Management System," aims to address these challenges
 ## Team Work Distribution
 - **Huỳnh Lê Phong**: Requirement analysis, backend development.
 - **Nguyễn Quốc Trạng**: System design, backend development and database schema.
-- **Trần Nhật Anh**: User interface design and frontend development.
 - **Nguyễn Triệu Vy**: User interface design, frontend development and documentation.
 

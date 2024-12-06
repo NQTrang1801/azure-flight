@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc83d"
+  },
+  "groupCode": "511",
+  "groupName": "ADMIN",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc83f"
+  },
+  "groupCode": "999",
+  "groupName": "ADMINISTRATOR",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc83e"
+  },
+  "groupCode": "000",
+  "groupName": "USER",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665360e5b91c37c9c3bdf12b"
+  },
+  "groupCode": "511-ConfirmBooking",
+  "groupName": "Confirm Booking",
+  "__v": 0
+}]

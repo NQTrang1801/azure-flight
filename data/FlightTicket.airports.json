@@ -1,0 +1,198 @@
+[{
+  "_id": {
+    "$oid": "665352c5b91c37c9c3bdc99c"
+  },
+  "code": "SGN",
+  "name": "Tan Son Nhat International Airport",
+  "country": "Viet Nam",
+  "address": "TP Ho Chi Minh",
+  "timezone": "GMT+7",
+  "terminals": 8,
+  "capacity": 8000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      105.42,
+      10.8188
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665352eeb91c37c9c3bdc9b1"
+  },
+  "code": "HAN",
+  "name": "Noi Bai International Airport",
+  "country": "Viet Nam",
+  "address": "Ha Noi",
+  "timezone": "GMT+7",
+  "terminals": 6,
+  "capacity": 6000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      106.25,
+      13.9542
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653532db91c37c9c3bdc9c6"
+  },
+  "code": "HKG",
+  "name": "Hong Kong International Airport",
+  "country": "China",
+  "address": "Hong Kong",
+  "timezone": "GMT+7",
+  "terminals": 12,
+  "capacity": 12000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      106.6586,
+      32.123
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535473b91c37c9c3bdca80"
+  },
+  "code": "LAX",
+  "name": "Los Angeles International Airport",
+  "country": "United States",
+  "address": "Los Angeles",
+  "timezone": "GMT+7",
+  "terminals": 14,
+  "capacity": 14000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      106.25,
+      13.9542
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665354aab91c37c9c3bdca95"
+  },
+  "code": "PVG",
+  "name": "Shanghai International Airport",
+  "country": "China",
+  "address": "Shanghai",
+  "timezone": "GMT+7",
+  "terminals": 16,
+  "capacity": 16000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      107.253,
+      16.0439
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665354dab91c37c9c3bdcaaa"
+  },
+  "code": "IST",
+  "name": "Istanbul International Airport",
+  "country": "Turkey",
+  "address": "Istanbul",
+  "timezone": "GMT+7",
+  "terminals": 12,
+  "capacity": 12000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      107.807,
+      13.9542
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535517b91c37c9c3bdcabf"
+  },
+  "code": "HND",
+  "name": "Tokyo Haneda International Airport",
+  "country": "Japan",
+  "address": "Tokyo",
+  "timezone": "GMT+7",
+  "terminals": 18,
+  "capacity": 18000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      105.42,
+      10.8188
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535548b91c37c9c3bdcad4"
+  },
+  "code": "DAD",
+  "name": "Da Nang International Airport",
+  "country": "Viet Nam",
+  "address": "Da Nang",
+  "timezone": "GMT+7",
+  "terminals": 6,
+  "capacity": 6000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      133.2313,
+      13.231
+    ]
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653557bb91c37c9c3bdcae9"
+  },
+  "code": "MEL",
+  "name": "Melbourne International Airport",
+  "country": "Australia",
+  "address": "Melbourne",
+  "timezone": "GMT+7",
+  "terminals": 10,
+  "capacity": 10000,
+  "isInternational": true,
+  "coordinates": {
+    "type": "Point",
+    "coordinates": [
+      133.2313,
+      14.532
+    ]
+  },
+  "status": true,
+  "__v": 0
+}]

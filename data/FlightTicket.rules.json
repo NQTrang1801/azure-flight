@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc90c"
+  },
+  "ruleName": "Regulations booking",
+  "code": "R3",
+  "detail": "Only book tickets later 1 day before departure. On the date of departure, all votes will be canceled.",
+  "values": {
+    "max_booking_days_before_departure": -1,
+    "cancel_bookings_days_before_departure": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc90b"
+  },
+  "ruleName": "Regulations on tickets",
+  "code": "R2",
+  "detail": "Only sell tickets when there is room. There are 2 classes (1, 2). The ticket price is bound with different types of classes, each flight has a separate ticket price.",
+  "values": {
+    "sell_only_available_seats": true,
+    "ticket_classes": {
+      "1": {
+        "price_multiplier": 1.05
+      },
+      "2": {
+        "price_multiplier": 1
+      }
+    },
+    "separate_ticket_prices": true
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc90a"
+  },
+  "ruleName": "Regulation intermediary airports",
+  "code": "R1-3",
+  "detail": "Maximum intermediate airports with a stop time limit",
+  "values": {
+    "max_transit_airports": 2,
+    "min": 10,
+    "max": 20
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc909"
+  },
+  "ruleName": "Regulation flight time",
+  "code": "R1-2",
+  "detail": "minimum flight time",
+  "values": {
+    "min_flight_time": 30
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66534663b91c37c9c3bdc908"
+  },
+  "ruleName": "Regulation Airport",
+  "code": "R1-1",
+  "detail": "Maximum number of airports",
+  "values": {
+    "max_airports": 10
+  },
+  "__v": 0
+}]

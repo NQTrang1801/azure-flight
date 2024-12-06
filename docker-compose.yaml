@@ -1,40 +1,18 @@
-version: '3.8'
-
+version: '3'
 services:
-  frontend:
+
+  expressjs-app:
     build:
       context: .
       dockerfile: Dockerfile
+    image: expressjsbackend:latest
+    container_name: expressjs-backend-container
     ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=development
-    working_dir: /usr/src/app
-    command: npm run dev:user 
+      - "4040:4040"
+      - "3030:3030"
+      - "3032:3032"
+      - "3033:3033"
+      - "8000:8000"
+      - "1935:1935"
     volumes:
-      - .:/usr/src/app
-    depends_on:
-      - backend
-
-  backend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    environment:
-      - NODE_ENV=development
-    working_dir: /usr/src/app
-    command: npm run server 
-    volumes:
-      - .:/usr/src/app
-      
-  db:
-    image: mongo:latest
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
-
-volumes:
-  mongo_data:
+      - ./data:/app/data

@@ -1,0 +1,555 @@
+[{
+  "_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "flight_number": "MH001",
+  "flight_code": "SGN-HAN",
+  "departure_airport": {
+    "$oid": "665352c5b91c37c9c3bdc99c"
+  },
+  "destination_airport": {
+    "$oid": "665352eeb91c37c9c3bdc9b1"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-26T17:20:00.000Z"
+  },
+  "duration": 90,
+  "seats": [
+    {
+      "class": "1",
+      "count": 20,
+      "booked_seats": 5,
+      "status": true,
+      "_id": {
+        "$oid": "66535405b91c37c9c3bdca00"
+      }
+    },
+    {
+      "class": "2",
+      "count": 80,
+      "booked_seats": 1,
+      "status": true,
+      "_id": {
+        "$oid": "66535405b91c37c9c3bdca01"
+      }
+    }
+  ],
+  "ticket_price": 100,
+  "transit_airports": [],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653560ab91c37c9c3bdcb14"
+  },
+  "flight_number": "MH002",
+  "flight_code": "LAX-HND",
+  "departure_airport": {
+    "$oid": "66535473b91c37c9c3bdca80"
+  },
+  "destination_airport": {
+    "$oid": "66535517b91c37c9c3bdcabf"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-27T01:00:00.000Z"
+  },
+  "duration": 600,
+  "seats": [
+    {
+      "class": "1",
+      "count": 20,
+      "booked_seats": 4,
+      "status": true,
+      "_id": {
+        "$oid": "6653560ab91c37c9c3bdcb15"
+      }
+    },
+    {
+      "class": "2",
+      "count": 60,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "6653560ab91c37c9c3bdcb16"
+      }
+    }
+  ],
+  "ticket_price": 1000,
+  "transit_airports": [
+    {
+      "airport_id": {
+        "$oid": "665354dab91c37c9c3bdcaaa"
+      },
+      "stop_duration": 15,
+      "note": "Refueling",
+      "_id": {
+        "$oid": "6653560ab91c37c9c3bdcb17"
+      }
+    }
+  ],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535638b91c37c9c3bdcb48"
+  },
+  "flight_number": "MH003",
+  "flight_code": "HKG-MEL",
+  "departure_airport": {
+    "$oid": "6653532db91c37c9c3bdc9c6"
+  },
+  "destination_airport": {
+    "$oid": "6653557bb91c37c9c3bdcae9"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-29T17:00:00.000Z"
+  },
+  "duration": 300,
+  "seats": [
+    {
+      "class": "1",
+      "count": 30,
+      "booked_seats": 1,
+      "status": true,
+      "_id": {
+        "$oid": "66535638b91c37c9c3bdcb49"
+      }
+    },
+    {
+      "class": "2",
+      "count": 60,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66535638b91c37c9c3bdcb4a"
+      }
+    }
+  ],
+  "ticket_price": 300,
+  "transit_airports": [
+    {
+      "airport_id": {
+        "$oid": "665352c5b91c37c9c3bdc99c"
+      },
+      "stop_duration": 15,
+      "note": "Refueling",
+      "_id": {
+        "$oid": "66535638b91c37c9c3bdcb4b"
+      }
+    }
+  ],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653567eb91c37c9c3bdcb82"
+  },
+  "flight_number": "MH004",
+  "flight_code": "LAX-HAN",
+  "departure_airport": {
+    "$oid": "66535473b91c37c9c3bdca80"
+  },
+  "destination_airport": {
+    "$oid": "665352eeb91c37c9c3bdc9b1"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-27T08:00:00.000Z"
+  },
+  "duration": 700,
+  "seats": [
+    {
+      "class": "1",
+      "count": 30,
+      "booked_seats": 1,
+      "status": true,
+      "_id": {
+        "$oid": "6653567eb91c37c9c3bdcb83"
+      }
+    },
+    {
+      "class": "2",
+      "count": 70,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "6653567eb91c37c9c3bdcb84"
+      }
+    }
+  ],
+  "ticket_price": 1500,
+  "transit_airports": [
+    {
+      "airport_id": {
+        "$oid": "6653532db91c37c9c3bdc9c6"
+      },
+      "stop_duration": 15,
+      "note": "Refueling",
+      "_id": {
+        "$oid": "6653567eb91c37c9c3bdcb85"
+      }
+    },
+    {
+      "airport_id": {
+        "$oid": "665354dab91c37c9c3bdcaaa"
+      },
+      "stop_duration": 20,
+      "note": "Cargo in transit",
+      "_id": {
+        "$oid": "6653567eb91c37c9c3bdcb86"
+      }
+    }
+  ],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665356e2b91c37c9c3bdcbc5"
+  },
+  "flight_number": "MH004",
+  "flight_code": "PVG-HKG",
+  "departure_airport": {
+    "$oid": "665354aab91c37c9c3bdca95"
+  },
+  "destination_airport": {
+    "$oid": "6653532db91c37c9c3bdc9c6"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-27T17:40:00.000Z"
+  },
+  "duration": 270,
+  "seats": [
+    {
+      "class": "1",
+      "count": 30,
+      "booked_seats": 1,
+      "status": true,
+      "_id": {
+        "$oid": "665356e2b91c37c9c3bdcbc6"
+      }
+    },
+    {
+      "class": "2",
+      "count": 40,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "665356e2b91c37c9c3bdcbc7"
+      }
+    }
+  ],
+  "ticket_price": 300,
+  "transit_airports": [],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535742b91c37c9c3bdcdce"
+  },
+  "flight_number": "MH005",
+  "flight_code": "HAN-IST",
+  "departure_airport": {
+    "$oid": "665352eeb91c37c9c3bdc9b1"
+  },
+  "destination_airport": {
+    "$oid": "665354dab91c37c9c3bdcaaa"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-26T16:45:00.000Z"
+  },
+  "duration": 700,
+  "seats": [
+    {
+      "class": "1",
+      "count": 20,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66535742b91c37c9c3bdcdcf"
+      }
+    },
+    {
+      "class": "2",
+      "count": 30,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66535742b91c37c9c3bdcdd0"
+      }
+    }
+  ],
+  "ticket_price": 700,
+  "transit_airports": [
+    {
+      "airport_id": {
+        "$oid": "6653532db91c37c9c3bdc9c6"
+      },
+      "stop_duration": 15,
+      "note": "Refueling",
+      "_id": {
+        "$oid": "66535742b91c37c9c3bdcdd1"
+      }
+    }
+  ],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66536440b91c37c9c3be06ec"
+  },
+  "flight_number": "MH006",
+  "flight_code": "HAN-SGN",
+  "departure_airport": {
+    "$oid": "665352eeb91c37c9c3bdc9b1"
+  },
+  "destination_airport": {
+    "$oid": "665352c5b91c37c9c3bdc99c"
+  },
+  "departure_datetime": {
+    "$date": "2024-05-31T17:40:00.000Z"
+  },
+  "duration": 90,
+  "seats": [
+    {
+      "class": "1",
+      "count": 30,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66536440b91c37c9c3be06ed"
+      }
+    },
+    {
+      "class": "2",
+      "count": 60,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66536440b91c37c9c3be06ee"
+      }
+    }
+  ],
+  "ticket_price": 100,
+  "transit_airports": [],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66536470b91c37c9c3be073b"
+  },
+  "flight_number": "MH007",
+  "flight_code": "LAX-PVG",
+  "departure_airport": {
+    "$oid": "66535473b91c37c9c3bdca80"
+  },
+  "destination_airport": {
+    "$oid": "665354aab91c37c9c3bdca95"
+  },
+  "departure_datetime": {
+    "$date": "2024-06-06T03:30:00.000Z"
+  },
+  "duration": 1000,
+  "seats": [
+    {
+      "class": "1",
+      "count": 40,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66536470b91c37c9c3be073c"
+      }
+    },
+    {
+      "class": "2",
+      "count": 60,
+      "booked_seats": 0,
+      "status": true,
+      "_id": {
+        "$oid": "66536470b91c37c9c3be073d"
+      }
+    }
+  ],
+  "ticket_price": 1000,
+  "transit_airports": [
+    {
+      "airport_id": {
+        "$oid": "665354dab91c37c9c3bdcaaa"
+      },
+      "stop_duration": 15,
+      "note": "Refueling",
+      "_id": {
+        "$oid": "66536470b91c37c9c3be073e"
+      }
+    },
+    {
+      "airport_id": {
+        "$oid": "665352c5b91c37c9c3bdc99c"
+      },
+      "stop_duration": 20,
+      "note": "Cargo in transit",
+      "_id": {
+        "$oid": "66536470b91c37c9c3be073f"
+      }
+    }
+  ],
+  "rules": {
+    "regulation_1": {
+      "flight_time": {
+        "$oid": "66534663b91c37c9c3bdc909"
+      },
+      "intermediate": {
+        "$oid": "66534663b91c37c9c3bdc90a"
+      }
+    },
+    "regulation_2": {
+      "tickets": {
+        "$oid": "66534663b91c37c9c3bdc90b"
+      }
+    },
+    "regulation_3": {
+      "booking": {
+        "$oid": "66534663b91c37c9c3bdc90c"
+      }
+    }
+  },
+  "__v": 0
+}]

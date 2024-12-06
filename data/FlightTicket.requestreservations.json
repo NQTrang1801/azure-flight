@@ -1,0 +1,336 @@
+[{
+  "_id": {
+    "$oid": "6653576eb91c37c9c3bdd0ce"
+  },
+  "user_id": {
+    "$oid": "6653526bb91c37c9c3bdc96b"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "1",
+  "full_name": "Tran Minh Anh",
+  "CMND": "31923910215",
+  "phone_number": "0938263217",
+  "price": 105,
+  "booking_date": {
+    "$date": "2024-05-26T15:38:22.593Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653577db91c37c9c3bdd115"
+  },
+  "user_id": {
+    "$oid": "6653526bb91c37c9c3bdc96b"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "2",
+  "full_name": "Nguyen Thanh Tan",
+  "CMND": "3023183213",
+  "phone_number": "0938273213",
+  "price": 100,
+  "booking_date": {
+    "$date": "2024-05-26T15:38:37.115Z"
+  },
+  "status": "Cancelled",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535790b91c37c9c3bdd15c"
+  },
+  "user_id": {
+    "$oid": "6653526bb91c37c9c3bdc96b"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "1",
+  "full_name": "Tran Van Dai",
+  "CMND": "3023183214",
+  "phone_number": "0932817327",
+  "price": 105,
+  "booking_date": {
+    "$date": "2024-05-26T15:38:56.424Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535db2b91c37c9c3bddca2"
+  },
+  "user_id": {
+    "$oid": "6653526bb91c37c9c3bdc96b"
+  },
+  "flight_id": {
+    "$oid": "665356e2b91c37c9c3bdcbc5"
+  },
+  "seat_class": "2",
+  "full_name": "Tran Thi Lan",
+  "CMND": "32132132102",
+  "phone_number": "0381232431",
+  "price": 300,
+  "booking_date": {
+    "$date": "2024-05-26T16:05:06.805Z"
+  },
+  "status": "Cancelled",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535e42b91c37c9c3bddf0f"
+  },
+  "user_id": {
+    "$oid": "66535dedb91c37c9c3bdddb6"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "1",
+  "full_name": "Le Duc Viet",
+  "CMND": "3281329432",
+  "phone_number": "0653132913",
+  "price": 105,
+  "booking_date": {
+    "$date": "2024-05-26T16:07:30.807Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535e5ab91c37c9c3bddf50"
+  },
+  "user_id": {
+    "$oid": "66535dedb91c37c9c3bdddb6"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "1",
+  "full_name": "Le Van Minh",
+  "CMND": "32311321322",
+  "phone_number": "0873219321",
+  "price": 105,
+  "booking_date": {
+    "$date": "2024-05-26T16:07:54.359Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535e6eb91c37c9c3bddf91"
+  },
+  "user_id": {
+    "$oid": "66535dedb91c37c9c3bdddb6"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "1",
+  "full_name": "Nguyen Dinh Chau",
+  "CMND": "3123837132",
+  "phone_number": "0832631832",
+  "price": 105,
+  "booking_date": {
+    "$date": "2024-05-26T16:08:14.956Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535e81b91c37c9c3bddfd2"
+  },
+  "user_id": {
+    "$oid": "66535dedb91c37c9c3bdddb6"
+  },
+  "flight_id": {
+    "$oid": "66535405b91c37c9c3bdc9ff"
+  },
+  "seat_class": "2",
+  "full_name": "Nguyen Thanh Lam",
+  "CMND": "3291028321",
+  "phone_number": "0652132132",
+  "price": 100,
+  "booking_date": {
+    "$date": "2024-05-26T16:08:33.557Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535fedb91c37c9c3bde6f4"
+  },
+  "user_id": {
+    "$oid": "66535fc7b91c37c9c3bde67e"
+  },
+  "flight_id": {
+    "$oid": "6653560ab91c37c9c3bdcb14"
+  },
+  "seat_class": "1",
+  "full_name": "Nguyen Phuong Thanh",
+  "CMND": "32912323218",
+  "phone_number": "0872132133",
+  "price": 1050,
+  "booking_date": {
+    "$date": "2024-05-26T16:14:37.910Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66535ffdb91c37c9c3bde736"
+  },
+  "user_id": {
+    "$oid": "66535fc7b91c37c9c3bde67e"
+  },
+  "flight_id": {
+    "$oid": "6653560ab91c37c9c3bdcb14"
+  },
+  "seat_class": "1",
+  "full_name": "Le Duc Viet",
+  "CMND": "3102831823",
+  "phone_number": "0381232431",
+  "price": 1050,
+  "booking_date": {
+    "$date": "2024-05-26T16:14:53.868Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653600fb91c37c9c3bde778"
+  },
+  "user_id": {
+    "$oid": "66535fc7b91c37c9c3bde67e"
+  },
+  "flight_id": {
+    "$oid": "6653560ab91c37c9c3bdcb14"
+  },
+  "seat_class": "1",
+  "full_name": "Nguyen Thanh Tan",
+  "CMND": "3023183213",
+  "phone_number": "0932817322",
+  "price": 1050,
+  "booking_date": {
+    "$date": "2024-05-26T16:15:11.559Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653601fb91c37c9c3bde7ba"
+  },
+  "user_id": {
+    "$oid": "66535fc7b91c37c9c3bde67e"
+  },
+  "flight_id": {
+    "$oid": "6653560ab91c37c9c3bdcb14"
+  },
+  "seat_class": "1",
+  "full_name": "Tran Thi Lan",
+  "CMND": "1321321311",
+  "phone_number": "083263183",
+  "price": 1050,
+  "booking_date": {
+    "$date": "2024-05-26T16:15:27.588Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66536313b91c37c9c3bdfb0e"
+  },
+  "user_id": {
+    "$oid": "665362f3b91c37c9c3bdfab1"
+  },
+  "flight_id": {
+    "$oid": "6653567eb91c37c9c3bdcb82"
+  },
+  "seat_class": "1",
+  "full_name": "Le Duc Phat",
+  "CMND": "3281231234",
+  "phone_number": "083612132",
+  "price": 1575,
+  "booking_date": {
+    "$date": "2024-05-26T16:28:03.193Z"
+  },
+  "status": "Paid",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653632cb91c37c9c3bdfb69"
+  },
+  "user_id": {
+    "$oid": "665362f3b91c37c9c3bdfab1"
+  },
+  "flight_id": {
+    "$oid": "6653567eb91c37c9c3bdcb82"
+  },
+  "seat_class": "1",
+  "full_name": "Nguyen Thanh Tan",
+  "CMND": "3023183213",
+  "phone_number": "082123123",
+  "price": 1575,
+  "booking_date": {
+    "$date": "2024-05-26T16:28:28.019Z"
+  },
+  "status": "Cancelled",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6653660eb91c37c9c3be0d9e"
+  },
+  "user_id": {
+    "$oid": "665362f3b91c37c9c3bdfab1"
+  },
+  "flight_id": {
+    "$oid": "665356e2b91c37c9c3bdcbc5"
+  },
+  "seat_class": "1",
+  "full_name": "Le Duc Phat",
+  "CMND": "31923910215",
+  "phone_number": "081231234",
+  "price": 315,
+  "booking_date": {
+    "$date": "2024-05-26T16:40:46.521Z"
+  },
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66536640b91c37c9c3be0ef2"
+  },
+  "user_id": {
+    "$oid": "665362f3b91c37c9c3bdfab1"
+  },
+  "flight_id": {
+    "$oid": "66535638b91c37c9c3bdcb48"
+  },
+  "seat_class": "1",
+  "full_name": "Tran Van Dai",
+  "CMND": "91321321321",
+  "phone_number": "0863123457",
+  "price": 315,
+  "booking_date": {
+    "$date": "2024-05-26T16:41:36.921Z"
+  },
+  "status": "Booked",
+  "__v": 0
+}]
